@@ -9,6 +9,7 @@ const CharacterMap = props => {
                 
                 )}
         </div>
+        
     )
 }
 
