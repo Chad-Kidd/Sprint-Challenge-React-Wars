@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import './CharacterCard';
+import CharacterCard from './components/CharacterCard';
+import CharacterMap from'./components/CharacterMap';
 
 class App extends Component {
   constructor() {
@@ -34,9 +35,13 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <div>
+        <CharacterCard data={this.state.starwarsChars} />
+        </div>
+        <div><CharacterMap /></div>
       </div>
     );
   }
 }
-
+// key={index} characterData={data}
 export default App;
