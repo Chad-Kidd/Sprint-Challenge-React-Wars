@@ -4,5 +4,13 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 50px;
+  padding: 0;
 }
 /* write your parent styles in here for your App.js */
+
+h3 {
+ color: #443E3E;
+ font-size: 30px;
+ text-shadow: 1px 5px 5px rgb(235, 242, 194);
+}

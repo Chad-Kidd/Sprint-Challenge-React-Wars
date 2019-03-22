@@ -9,16 +9,16 @@ const CharacterCard = props => {
       <div className="character-info">
         <h3>{props.characterData.name}</h3>
         <p>
-          <strong>Name:</strong> {props.characterData.name};
+          <strong>Birth Year:</strong> {props.characterData.birth_year}
         </p>
         <p>
-          <strong>Birth Year:</strong> {props.characterData.birth_year};
+          <strong>Height:</strong> {props.characterData.height}
+        </p> 
+        <p>
+          <strong>Mass:</strong> {props.characterData.mass}
         </p>
         <p>
-          <strong>Height:</strong> {props.characterData.height};
-        </p>
-        <p>
-          <strong>Homeworld:</strong> {props.characterData.homeworld};
+          <strong>Homeworld:</strong> {props.characterData.homeworld}
         </p>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import CharacterCard from './components/CharacterCard';
+// import CharacterCard from './components/CharacterCard';
 import CharacterMap from'./components/CharacterMap';
 
 class App extends Component {
@@ -35,10 +35,10 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <div>
-        {/* <CharacterCard data={this.state.starwarsChars} /> */}
-        </div>
-        <div><CharacterMap data={this.state.starwarsChars}/></div>
+        {/* <div>
+        <CharacterCard data={this.state.starwarsChars} />
+        </div> */}
+        <div className="card"><CharacterMap data={this.state.starwarsChars}/></div>
       </div>
     );
   }
